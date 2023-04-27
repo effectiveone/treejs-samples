@@ -1,0 +1,27 @@
+{
+  "name": "vue-first-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.30.1",
+    "dat.gui": "^0.7.9",
+    "konva": "^9.0.1",
+    "oimo": "^1.0.9",
+    "three": "^0.152.0",
+    "vue": "^3.2.47",
+    "vue-konva": "^3.0.2",
+    "vue-router": "^4.1.6",
+    "vue-threejs": "^0.2.0-alpha.1",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "@vue/compiler-sfc": "^3.2.47"
+  }
+}
