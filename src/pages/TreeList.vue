@@ -12,18 +12,35 @@
         <p>Rubic</p>
       </div>
     </div>
+       <div class="grid-item" @click="goToPortfolio('Cone')">
+      <img :src="ConeImage" alt="Cone">
+      <div class="overlay">
+        <p>Cone</p>
+      </div>
+    </div>
+    <div class="grid-item" @click="goToPortfolio('tree')">
+      <img :src="TreesImage" alt="Trees">
+      <div class="overlay">
+        <p>Trees</p>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 import solarImage from '@/assets/solar.png';
 import rubicImage from '@/assets/rubic.png';
+import ConeImage from '@/assets/cone.png';
+import TreesImage from '@/assets/trees.png';
+
 
 export default {
   data() {
     return {
       solarImage,
+      ConeImage,
       rubicImage,
+      TreesImage
     };
   },
   methods: {

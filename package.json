@@ -10,9 +10,11 @@
   "dependencies": {
     "core-js": "^3.30.1",
     "dat.gui": "^0.7.9",
+    "gsap": "^3.11.5",
     "konva": "^9.0.1",
     "oimo": "^1.0.9",
     "three": "^0.152.0",
+    "three-bas": "^3.0.0",
     "vue": "^3.2.47",
     "vue-konva": "^3.0.2",
     "vue-router": "^4.1.6",
